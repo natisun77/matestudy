@@ -1,9 +1,9 @@
 package forth;
 
 public class MyArrayList<T> implements List<T> {
+    private static final int INIT_SIZE = 10;
     private Object[] arr;
     private int counter;
-    private static final int INIT_SIZE = 10;
 
     public MyArrayList() {
         arr = new Object[INIT_SIZE];
@@ -26,7 +26,6 @@ public class MyArrayList<T> implements List<T> {
         arr[counter] = t;
         counter++;
     }
-
 
     public void remove(int index) {
         if (index < 0 || index >= counter) {

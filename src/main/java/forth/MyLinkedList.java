@@ -29,7 +29,7 @@ public class MyLinkedList<T> implements List<T> {
 
     public void add(T t) {
         if (counter == 0) {
-            Node<T> node = new Node<T>(t);
+            Node<T> node = new Node<>(t);
             first = node;
             last = node;
         } else {

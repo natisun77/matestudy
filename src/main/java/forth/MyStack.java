@@ -1,9 +1,9 @@
 package forth;
 
 public class MyStack<T> {
+    private static final int INIT_SIZE = 10;
     private Object[] arr;
     private int counter;
-    private static final int INIT_SIZE = 10;
 
     public MyStack() {
         arr = new Object[INIT_SIZE];
@@ -54,5 +54,4 @@ public class MyStack<T> {
         }
         return null;
     }
-
 }
