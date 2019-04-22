@@ -31,7 +31,7 @@ public abstract class ListTest {
     }
 
     @Test
-    public void remove() {
+    public void testRemove() {
         list.add(5);
         list.add(10);
         list.add(15);
@@ -48,7 +48,7 @@ public abstract class ListTest {
     }
 
     @Test
-    public void size() {
+    public void testSize() {
         list.add(5);
         list.add(10);
         list.add(15);
@@ -66,7 +66,7 @@ public abstract class ListTest {
     }
 
     @Test
-    public void clear() {
+    public void testClear() {
         list.add(5);
         list.add(10);
         list.add(15);

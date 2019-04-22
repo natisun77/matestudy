@@ -14,7 +14,7 @@ public class MyHashMapTest {
     }
 
     @Test
-    public void putAndGet() {
+    public void testPutAndGet() {
         myHashMap.put(1, "Ann");
         myHashMap.put(2, "Ron");
         myHashMap.put(3, "Kate");
@@ -27,7 +27,7 @@ public class MyHashMapTest {
     }
 
     @Test
-    public void remove() {
+    public void testRemove() {
         myHashMap.put(1, "Ann");
         myHashMap.put(2, "Ron");
         myHashMap.put(3, "Kate");
@@ -39,7 +39,7 @@ public class MyHashMapTest {
     }
 
     @Test
-    public void clear() {
+    public void testClear() {
         myHashMap.put(1, "Ann");
         myHashMap.put(2, "Ron");
         myHashMap.put(3, "Kate");
@@ -52,7 +52,7 @@ public class MyHashMapTest {
     }
 
     @Test
-    public void size() {
+    public void testSize() {
         myHashMap.put(1, "Ann");
         myHashMap.put(2, "Ron");
         myHashMap.put(3, "Kate");
